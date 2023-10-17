@@ -190,7 +190,7 @@ If the timer reaches zero, it clears the interval and calls the showScores() fun
 Otherwise, it calculates the minutes and seconds remaining and updates the HTML element with id count-down accordingly.
 The countdown is started by calling the startCountDown() function.*/
 
-let time = .5;
+let time = 1;
 let quizTime = time*60;
 
 let counter = document.getElementById('count-down');
